@@ -1,0 +1,25 @@
+Want to pick up some linux/docker foo? Checkout this nifty brown bag.
+
+Meeting Summary:
+  Linux in the news
+  - https://hashicorp.com/blog/otto.html  - successor to vagrant
+
+  SSH:
+  - Mosh (https://mosh.mit.edu/)
+
+  Shell:
+  - autocd
+  - Better history
+
+  Vim/Emacs:
+  - copy pasting in Vim
+    # paste with shift+insert
+    # set paste
+    # set clipboard^=unnamed,unnamedplus
+
+Talks:
+  Docker fundamentals (part 1)
+    #uses - conflicting runtime, port mapping, reproducibility, jails - cgroups, deploy mostly anywhere
+  - http://merrigrove.blogspot.com/2015/10/visualizing-docker-containers-and-images.html
+  - https://github.com/harbur/docker-workshop
+  - http://nexus.vistaprint.net/2015/10/the-top-3-docker-uses-that-are-not-hyped-enough/

@@ -1,0 +1,18 @@
+# http://www.ukuug.org/events/linux2003/papers/bash_tips/Bash_tips.pdf
+shopt -s autocd
+shopt -s cdspell
+shopt -s checkwinsize
+# stop the terminal from freezing
+stty -ixon start '' stop '' ixoff
+
+shopt -s histappend
+export PROMPT_COMMAND='history -a'
+set show-all-if-ambiguous on
+set completion-ignore-case on
+set show-all-if-unmodified on
+
+HISTSIZE=90000
+HISTFILESIZE=90000
+HISTCONTROL=ignoredups:ignorespace
+bind '"\e[A": history-search-backward'
+bind '"\e[B": history-search-forward'
